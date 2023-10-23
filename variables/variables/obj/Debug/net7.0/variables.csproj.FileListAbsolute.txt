@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/variables/variables/obj/Debug/net7.0/variables.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/variables/variables/obj/Debug/net7.0/variables.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/variables/variables/obj/Debug/net7.0/variables.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/variables/variables/obj/Debug/net7.0/variables.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/variables/variables/obj/Debug/net7.0/variables.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/variables/variables/bin/Debug/net7.0/variables
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/variables/variables/bin/Debug/net7.0/variables.deps.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/variables/variables/bin/Debug/net7.0/variables.runtimeconfig.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/variables/variables/bin/Debug/net7.0/variables.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/variables/variables/bin/Debug/net7.0/variables.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/variables/variables/obj/Debug/net7.0/variables.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/variables/variables/obj/Debug/net7.0/refint/variables.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/variables/variables/obj/Debug/net7.0/variables.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/variables/variables/obj/Debug/net7.0/variables.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/variables/variables/obj/Debug/net7.0/ref/variables.dll

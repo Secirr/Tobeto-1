@@ -1,9 +1,20 @@
 ﻿<Properties StartupConfiguration="{ECACE583-309F-4A7F-91AB-671609479130}|Default">
-  <MonoDevelop.Ide.ItemProperties.variables FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.variables PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="variables/Program.cs">
     <Files>
-      <File FileName="variables/Program.cs" Line="4" Column="1" />
+      <File FileName="variables/Program.cs" Line="15" Column="31" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="variables" expanded="True">
+            <Node name="variables" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />

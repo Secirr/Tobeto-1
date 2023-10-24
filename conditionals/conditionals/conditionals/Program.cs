@@ -36,17 +36,25 @@ int sayi = 10;
 //}
 
 
-if (sayi > 0 && sayi <= 100)
+//if (sayi > 0 && sayi <= 100)
+//{
+//    Console.WriteLine("sayi 1 ve 100 arasındadır.");
+//}
+//else if(sayi >= 101 && sayi <= 200)
+//{
+//    Console.WriteLine("sayı 100 ve 200 arasındadır.");
+//}
+//else if(sayi < 0 || sayi > 200)
+//{
+//     Console.WriteLine("sayi 0 dan küçük ya da 200 den büyük");
+//}
+
+if(sayi < 100)
 {
-    Console.WriteLine("sayi 1 ve 100 arasındadır.");
-}
-else if(sayi >= 101 && sayi <= 200)
-{
-    Console.WriteLine("sayı 100 ve 200 arasındadır.");
-}
-else if(sayi < 0 || sayi > 200)
-{
-     Console.WriteLine("sayi 0 dan küçük ya da 200 den büyük");
+    if(sayi > 5)
+    {
+        Console.WriteLine("{0} Sayısı 100 den küçük ve 5 ten büyüktür.", sayi);
+    }
 }
 
 

@@ -39,18 +39,42 @@
 //}
 
 
-int number1;
-int number2 = 100;
-var result = Add(out number1, number2);
+//int number1;
+//int number2 = 100;
+//var result = Add(out number1, number2);
 
-Console.WriteLine(result);
-Console.WriteLine(number1);
+//Console.WriteLine(result);
+//Console.WriteLine(number1);
 
 
-Console.ReadKey();
+//Console.ReadKey();
 
-static int Add(out int number1, int number2)
+//static int Add(out int number1, int number2)
+//{
+//    number1 = 30;
+//    return number1 + number2;
+//}
+
+
+
+// Overloading
+
+class Overloading
 {
-    number1 = 30;
-    return number1 + number2;
+    static void Main()
+    {
+        Console.WriteLine(overLoad(2, 9));
+        Console.WriteLine(overLoad(2, 9, 2));
+
+        Console.ReadKey();
+    }
+
+    static int overLoad(int number1, int number2)
+    {
+        return number1 * number2;
+    }
+    static int overLoad(int number1, int number2, int number3)
+    {
+        return number1 * number2 * number3;
+    }
 }

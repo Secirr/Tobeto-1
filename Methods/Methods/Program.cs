@@ -59,22 +59,36 @@
 
 // Overloading
 
-class Overloading
+//class Overloading
+//{
+//    static void Main()
+//    {
+//        Console.WriteLine(overLoad(2, 9));
+//        Console.WriteLine(overLoad(2, 9, 2));
+
+//        Console.ReadKey();
+//    }
+
+//    static int overLoad(int number1, int number2)
+//    {
+//        return number1 * number2;
+//    }
+//    static int overLoad(int number1, int number2, int number3)
+//    {
+//        return number1 * number2 * number3;
+//    }
+//}
+
+
+//Params Keyword
+
+Console.Write(Params(5,2,4,5,6));
+Console.ReadKey();
+
+static int Params(int number1, params int[] numbers)
 {
-    static void Main()
-    {
-        Console.WriteLine(overLoad(2, 9));
-        Console.WriteLine(overLoad(2, 9, 2));
-
-        Console.ReadKey();
-    }
-
-    static int overLoad(int number1, int number2)
-    {
-        return number1 * number2;
-    }
-    static int overLoad(int number1, int number2, int number3)
-    {
-        return number1 * number2 * number3;
-    }
+    return number1 + numbers.Sum();
 }
+
+
+

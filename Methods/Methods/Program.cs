@@ -39,9 +39,9 @@
 //}
 
 
-int number1 = 20;
+int number1;
 int number2 = 100;
-var result = Add(ref number1, number2);
+var result = Add(out number1, number2);
 
 Console.WriteLine(result);
 Console.WriteLine(number1);
@@ -49,7 +49,7 @@ Console.WriteLine(number1);
 
 Console.ReadKey();
 
-static int Add(ref int number1, int number2)
+static int Add(out int number1, int number2)
 {
     number1 = 30;
     return number1 + number2;

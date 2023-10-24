@@ -22,17 +22,32 @@ int sayi = 10;
 
 */
 
-switch (sayi)
+//switch (sayi)
+//{
+//    case 10:
+//        Console.WriteLine("Sayı 10'dur");
+//        break;
+//    case 20:
+//        Console.WriteLine("Sayı 20'dir.");
+//        break;
+//    default:
+//        Console.WriteLine("sayı 10 ya da 20 değildir.");
+//        break;
+//}
+
+
+if (sayi > 0 && sayi <= 100)
 {
-    case 10:
-        Console.WriteLine("Sayı 10'dur");
-        break;
-    case 20:
-        Console.WriteLine("Sayı 20'dir.");
-        break;
-    default:
-        Console.WriteLine("sayı 10 ya da 20 değildir.");
-        break;
+    Console.WriteLine("sayi 1 ve 100 arasındadır.");
 }
+else if(sayi >= 101 && sayi <= 200)
+{
+    Console.WriteLine("sayı 100 ve 200 arasındadır.");
+}
+else if(sayi < 0 || sayi > 200)
+{
+     Console.WriteLine("sayi 0 dan küçük ya da 200 den büyük");
+}
+
 
 Console.ReadKey();

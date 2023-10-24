@@ -58,6 +58,7 @@ static void WhileLoop()
     Console.ReadKey();
 }
 
+//Do While
 static void DoWhileLoop()
 {
     int number = 10;
@@ -71,8 +72,22 @@ static void DoWhileLoop()
 
 }
 
+//ForEach
+static void ForEachLoop()
+{
+
+    string[] customers = { "Atilla", "Mina", "Nebahat" };
+
+    foreach (var customer in customers)
+    {
+        Console.WriteLine(customer);
+    }
+    Console.ReadKey();
+}
+
 
 //ForLoops();
 //WhileLoop();
-DoWhileLoop();
+//DoWhileLoop();
+ForEachLoop();
 

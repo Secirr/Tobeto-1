@@ -58,6 +58,21 @@ static void WhileLoop()
     Console.ReadKey();
 }
 
+static void DoWhileLoop()
+{
+    int number = 10;
+
+    do
+    {
+        Console.WriteLine(number);
+        number--;
+    } while (number >= 0);
+    Console.ReadKey();
+
+}
+
+
 //ForLoops();
-WhileLoop();
+//WhileLoop();
+DoWhileLoop();
 

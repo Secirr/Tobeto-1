@@ -1,4 +1,27 @@
 ﻿<Properties StartupConfiguration="{C62716AC-F545-42FE-8219-CA965AF2871C}|Default">
-  <MonoDevelop.Ide.ItemProperties.Classes FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Classes/CustomerManager.cs">
+    <Files>
+      <File FileName="Classes/Program.cs" Line="16" Column="10" />
+      <File FileName="Classes/ProductManager.cs" Line="10" Column="1" />
+      <File FileName="Classes/CustomerManager.cs" Line="15" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Classes" expanded="True">
+            <Node name="Classes">
+              <Node name="CustomerManager.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Classes PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

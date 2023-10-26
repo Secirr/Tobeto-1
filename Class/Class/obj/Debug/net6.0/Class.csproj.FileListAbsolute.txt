@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/Tobeto-class/Tobeto-2/Class/Class/obj/Debug/net6.0/Class.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/Tobeto-class/Tobeto-2/Class/Class/obj/Debug/net6.0/Class.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/Tobeto-class/Tobeto-2/Class/Class/obj/Debug/net6.0/Class.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto-class/Tobeto-2/Class/Class/obj/Debug/net6.0/Class.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/Tobeto-class/Tobeto-2/Class/Class/obj/Debug/net6.0/Class.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto-class/Tobeto-2/Class/Class/bin/Debug/net6.0/Class
+/Users/kadirozdemir/Desktop/Tobeto-class/Tobeto-2/Class/Class/bin/Debug/net6.0/Class.deps.json
+/Users/kadirozdemir/Desktop/Tobeto-class/Tobeto-2/Class/Class/bin/Debug/net6.0/Class.runtimeconfig.json
+/Users/kadirozdemir/Desktop/Tobeto-class/Tobeto-2/Class/Class/bin/Debug/net6.0/Class.dll
+/Users/kadirozdemir/Desktop/Tobeto-class/Tobeto-2/Class/Class/bin/Debug/net6.0/Class.pdb
+/Users/kadirozdemir/Desktop/Tobeto-class/Tobeto-2/Class/Class/obj/Debug/net6.0/Class.dll
+/Users/kadirozdemir/Desktop/Tobeto-class/Tobeto-2/Class/Class/obj/Debug/net6.0/refint/Class.dll
+/Users/kadirozdemir/Desktop/Tobeto-class/Tobeto-2/Class/Class/obj/Debug/net6.0/Class.pdb
+/Users/kadirozdemir/Desktop/Tobeto-class/Tobeto-2/Class/Class/obj/Debug/net6.0/Class.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/Tobeto-class/Tobeto-2/Class/Class/obj/Debug/net6.0/ref/Class.dll

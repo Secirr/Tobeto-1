@@ -1,46 +1,65 @@
 ﻿
 //Interfaces concepts
 
-Customer customer = new Customer //customer nesnesi oluşturma
+
+using InterFaces;
+
+class Program
 {
+    private static void Main(string[] args)
+    {
 
-    Id = 1,
-    FirtName = "Kadir",
-    LastName = "Özdemir",
+        //InterFacesIntro();
 
-    Address = "İstanbul"
-};
+        CustomerManager customerManager = new CustomerManager();
+        customerManager.Add(new OracleCustomerDal());
 
-Student student = new Student //student nesnesi oluşturma
-{
+        Console.ReadKey();
 
-    Id = 2,
-    FirtName = "Atilla",
-    LastName = "Akın",
+    }
+    private static void InterFacesIntro()
+    {
 
-    Departmant = "Anaokulu"
-};
+        Customer customer = new Customer //customer nesnesi oluşturma
+        {
 
-Worker worker = new Worker //worker nesnesi oluşturma
-{
+            Id = 1,
+            FirtName = "Kadir",
+            LastName = "Özdemir",
 
-    Id = 3,
-    FirtName = "Nebahat",
-    LastName = "Akın",
+            Address = "İstanbul"
+        };
 
-    Salary = 30000
-};
+        Student student = new Student //student nesnesi oluşturma
+        {
+
+            Id = 2,
+            FirtName = "Atilla",
+            LastName = "Akın",
+
+            Departmant = "Anaokulu"
+        };
+
+        Worker worker = new Worker //worker nesnesi oluşturma
+        {
+
+            Id = 3,
+            FirtName = "Nebahat",
+            LastName = "Akın",
+
+            Salary = 30000
+        };
 
 
 
-PersonManager manager = new PersonManager(); //manager nesnesi oluşturma
+        PersonManager manager = new PersonManager(); //manager nesnesi oluşturma
 
-manager.Add(customer); //manager içindeki metodu interface desteği ile kullandık
-manager.Add(student);
-manager.Add(worker);
+        manager.Add(customer); //manager içindeki metodu interface desteği ile kullandık
+        manager.Add(student);
+        manager.Add(worker);
 
-
-Console.ReadKey();
+    }
+}
 
 interface IPerson  //interface oluşturmak
 {

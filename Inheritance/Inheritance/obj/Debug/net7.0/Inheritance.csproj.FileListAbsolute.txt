@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Inheritance/Inheritance/bin/Debug/net7.0/Inheritance
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Inheritance/Inheritance/bin/Debug/net7.0/Inheritance.deps.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Inheritance/Inheritance/bin/Debug/net7.0/Inheritance.runtimeconfig.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Inheritance/Inheritance/bin/Debug/net7.0/Inheritance.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Inheritance/Inheritance/bin/Debug/net7.0/Inheritance.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Inheritance/Inheritance/obj/Debug/net7.0/Inheritance.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Inheritance/Inheritance/obj/Debug/net7.0/Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Inheritance/Inheritance/obj/Debug/net7.0/Inheritance.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Inheritance/Inheritance/obj/Debug/net7.0/Inheritance.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Inheritance/Inheritance/obj/Debug/net7.0/Inheritance.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Inheritance/Inheritance/obj/Debug/net7.0/Inheritance.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Inheritance/Inheritance/obj/Debug/net7.0/refint/Inheritance.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Inheritance/Inheritance/obj/Debug/net7.0/Inheritance.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Inheritance/Inheritance/obj/Debug/net7.0/Inheritance.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Inheritance/Inheritance/obj/Debug/net7.0/ref/Inheritance.dll

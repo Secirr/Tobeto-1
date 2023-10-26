@@ -26,6 +26,24 @@ namespace InterFaces
         }
     }
 
+    class MySqlServerCustomerDal : ICustomerDal
+    {
+        public void Add()
+        {
+            Console.WriteLine("MySql Added");
+        }
+
+        public void Delete()
+        {
+            Console.WriteLine("MySql Deleted");
+        }
+
+        public void Update()
+        {
+            Console.WriteLine("MySql Updated");
+        }
+    }
+
     class OracleCustomerDal : ICustomerDal
     {
         public void Add()

@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/CheckerBoard-app/CheckerBoard-app/bin/Debug/net7.0/CheckerBoard-app
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/CheckerBoard-app/CheckerBoard-app/bin/Debug/net7.0/CheckerBoard-app.deps.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/CheckerBoard-app/CheckerBoard-app/bin/Debug/net7.0/CheckerBoard-app.runtimeconfig.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/CheckerBoard-app/CheckerBoard-app/bin/Debug/net7.0/CheckerBoard-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/CheckerBoard-app/CheckerBoard-app/bin/Debug/net7.0/CheckerBoard-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/CheckerBoard-app/CheckerBoard-app/obj/Debug/net7.0/CheckerBoard-app.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/CheckerBoard-app/CheckerBoard-app/obj/Debug/net7.0/CheckerBoard-app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/CheckerBoard-app/CheckerBoard-app/obj/Debug/net7.0/CheckerBoard-app.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/CheckerBoard-app/CheckerBoard-app/obj/Debug/net7.0/CheckerBoard-app.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/CheckerBoard-app/CheckerBoard-app/obj/Debug/net7.0/CheckerBoard-app.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/CheckerBoard-app/CheckerBoard-app/obj/Debug/net7.0/CheckerBoard-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/CheckerBoard-app/CheckerBoard-app/obj/Debug/net7.0/refint/CheckerBoard-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/CheckerBoard-app/CheckerBoard-app/obj/Debug/net7.0/CheckerBoard-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/CheckerBoard-app/CheckerBoard-app/obj/Debug/net7.0/CheckerBoard-app.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/CheckerBoard-app/CheckerBoard-app/obj/Debug/net7.0/ref/CheckerBoard-app.dll

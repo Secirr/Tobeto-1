@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/InterfacesDemo/InterfacesDemo/bin/Debug/net7.0/InterfacesDemo
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/InterfacesDemo/InterfacesDemo/bin/Debug/net7.0/InterfacesDemo.deps.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/InterfacesDemo/InterfacesDemo/bin/Debug/net7.0/InterfacesDemo.runtimeconfig.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/InterfacesDemo/InterfacesDemo/bin/Debug/net7.0/InterfacesDemo.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/InterfacesDemo/InterfacesDemo/bin/Debug/net7.0/InterfacesDemo.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/InterfacesDemo/InterfacesDemo/obj/Debug/net7.0/InterfacesDemo.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/InterfacesDemo/InterfacesDemo/obj/Debug/net7.0/InterfacesDemo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/InterfacesDemo/InterfacesDemo/obj/Debug/net7.0/InterfacesDemo.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/InterfacesDemo/InterfacesDemo/obj/Debug/net7.0/InterfacesDemo.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/InterfacesDemo/InterfacesDemo/obj/Debug/net7.0/InterfacesDemo.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/InterfacesDemo/InterfacesDemo/obj/Debug/net7.0/InterfacesDemo.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/InterfacesDemo/InterfacesDemo/obj/Debug/net7.0/refint/InterfacesDemo.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/InterfacesDemo/InterfacesDemo/obj/Debug/net7.0/InterfacesDemo.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/InterfacesDemo/InterfacesDemo/obj/Debug/net7.0/InterfacesDemo.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/InterfacesDemo/InterfacesDemo/obj/Debug/net7.0/ref/InterfacesDemo.dll

@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/ArmstrongNumber-app/ArmstrongNumber-app/obj/Debug/net7.0/ArmstrongNumber-app.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/ArmstrongNumber-app/ArmstrongNumber-app/obj/Debug/net7.0/ArmstrongNumber-app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/ArmstrongNumber-app/ArmstrongNumber-app/obj/Debug/net7.0/ArmstrongNumber-app.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/ArmstrongNumber-app/ArmstrongNumber-app/obj/Debug/net7.0/ArmstrongNumber-app.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/ArmstrongNumber-app/ArmstrongNumber-app/obj/Debug/net7.0/ArmstrongNumber-app.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/ArmstrongNumber-app/ArmstrongNumber-app/bin/Debug/net7.0/ArmstrongNumber-app
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/ArmstrongNumber-app/ArmstrongNumber-app/bin/Debug/net7.0/ArmstrongNumber-app.deps.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/ArmstrongNumber-app/ArmstrongNumber-app/bin/Debug/net7.0/ArmstrongNumber-app.runtimeconfig.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/ArmstrongNumber-app/ArmstrongNumber-app/bin/Debug/net7.0/ArmstrongNumber-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/ArmstrongNumber-app/ArmstrongNumber-app/bin/Debug/net7.0/ArmstrongNumber-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/ArmstrongNumber-app/ArmstrongNumber-app/obj/Debug/net7.0/ArmstrongNumber-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/ArmstrongNumber-app/ArmstrongNumber-app/obj/Debug/net7.0/refint/ArmstrongNumber-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/ArmstrongNumber-app/ArmstrongNumber-app/obj/Debug/net7.0/ArmstrongNumber-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/ArmstrongNumber-app/ArmstrongNumber-app/obj/Debug/net7.0/ArmstrongNumber-app.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/ArmstrongNumber-app/ArmstrongNumber-app/obj/Debug/net7.0/ref/ArmstrongNumber-app.dll

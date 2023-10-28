@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FibonacciFunction-app/FibonacciFunction-app/bin/Debug/net7.0/FibonacciFunction-app
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FibonacciFunction-app/FibonacciFunction-app/bin/Debug/net7.0/FibonacciFunction-app.deps.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FibonacciFunction-app/FibonacciFunction-app/bin/Debug/net7.0/FibonacciFunction-app.runtimeconfig.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FibonacciFunction-app/FibonacciFunction-app/bin/Debug/net7.0/FibonacciFunction-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FibonacciFunction-app/FibonacciFunction-app/bin/Debug/net7.0/FibonacciFunction-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FibonacciFunction-app/FibonacciFunction-app/obj/Debug/net7.0/FibonacciFunction-app.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FibonacciFunction-app/FibonacciFunction-app/obj/Debug/net7.0/FibonacciFunction-app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FibonacciFunction-app/FibonacciFunction-app/obj/Debug/net7.0/FibonacciFunction-app.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FibonacciFunction-app/FibonacciFunction-app/obj/Debug/net7.0/FibonacciFunction-app.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FibonacciFunction-app/FibonacciFunction-app/obj/Debug/net7.0/FibonacciFunction-app.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FibonacciFunction-app/FibonacciFunction-app/obj/Debug/net7.0/FibonacciFunction-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FibonacciFunction-app/FibonacciFunction-app/obj/Debug/net7.0/refint/FibonacciFunction-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FibonacciFunction-app/FibonacciFunction-app/obj/Debug/net7.0/FibonacciFunction-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FibonacciFunction-app/FibonacciFunction-app/obj/Debug/net7.0/FibonacciFunction-app.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FibonacciFunction-app/FibonacciFunction-app/obj/Debug/net7.0/ref/FibonacciFunction-app.dll

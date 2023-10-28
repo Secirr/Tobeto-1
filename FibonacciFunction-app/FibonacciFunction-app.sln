@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciFunction-app", "FibonacciFunction-app\FibonacciFunction-app.csproj", "{28980FF1-2349-4534-84D1-1AD53E24126A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28980FF1-2349-4534-84D1-1AD53E24126A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28980FF1-2349-4534-84D1-1AD53E24126A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28980FF1-2349-4534-84D1-1AD53E24126A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28980FF1-2349-4534-84D1-1AD53E24126A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B0B5535-E20A-4416-B094-DB12C0778D46}
+	EndGlobalSection
+EndGlobal

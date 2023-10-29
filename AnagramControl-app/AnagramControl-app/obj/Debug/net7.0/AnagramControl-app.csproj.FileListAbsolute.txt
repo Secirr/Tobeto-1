@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/AnagramControl-app/AnagramControl-app/bin/Debug/net7.0/AnagramControl-app
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/AnagramControl-app/AnagramControl-app/bin/Debug/net7.0/AnagramControl-app.deps.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/AnagramControl-app/AnagramControl-app/bin/Debug/net7.0/AnagramControl-app.runtimeconfig.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/AnagramControl-app/AnagramControl-app/bin/Debug/net7.0/AnagramControl-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/AnagramControl-app/AnagramControl-app/bin/Debug/net7.0/AnagramControl-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/AnagramControl-app/AnagramControl-app/obj/Debug/net7.0/AnagramControl-app.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/AnagramControl-app/AnagramControl-app/obj/Debug/net7.0/AnagramControl-app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/AnagramControl-app/AnagramControl-app/obj/Debug/net7.0/AnagramControl-app.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/AnagramControl-app/AnagramControl-app/obj/Debug/net7.0/AnagramControl-app.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/AnagramControl-app/AnagramControl-app/obj/Debug/net7.0/AnagramControl-app.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/AnagramControl-app/AnagramControl-app/obj/Debug/net7.0/AnagramControl-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/AnagramControl-app/AnagramControl-app/obj/Debug/net7.0/refint/AnagramControl-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/AnagramControl-app/AnagramControl-app/obj/Debug/net7.0/AnagramControl-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/AnagramControl-app/AnagramControl-app/obj/Debug/net7.0/AnagramControl-app.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/AnagramControl-app/AnagramControl-app/obj/Debug/net7.0/ref/AnagramControl-app.dll

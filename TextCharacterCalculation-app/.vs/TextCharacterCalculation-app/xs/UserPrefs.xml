@@ -1,4 +1,14 @@
 ﻿<Properties StartupConfiguration="{F00A81B3-B365-48EC-8FB4-5397212A6D25}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.TextCharacterCalculation-app FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TextCharacterCalculation-app PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TextCharacterCalculation-app/Program.cs">
+    <Files>
+      <File FileName="TextCharacterCalculation-app/Program.cs" Line="8" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
 </Properties>

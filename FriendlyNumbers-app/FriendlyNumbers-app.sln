@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendlyNumbers-app", "FriendlyNumbers-app\FriendlyNumbers-app.csproj", "{6FD98E00-9F29-403E-BAA4-6F16043C954D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FD98E00-9F29-403E-BAA4-6F16043C954D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD98E00-9F29-403E-BAA4-6F16043C954D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD98E00-9F29-403E-BAA4-6F16043C954D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD98E00-9F29-403E-BAA4-6F16043C954D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58204175-E0FC-426F-B24F-6AC34E824B9F}
+	EndGlobalSection
+EndGlobal

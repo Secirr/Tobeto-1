@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{8599DA7A-128B-4406-B7CF-24663284DC8C}|Default">
+  <MonoDevelop.Ide.ItemProperties.UniqueCharactersCheck-app PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UniqueCharactersCheck-app/Program.cs">
+    <Files>
+      <File FileName="UniqueCharactersCheck-app/Program.cs" Line="32" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

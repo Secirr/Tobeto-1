@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/UniqueCharactersCheck-app/UniqueCharactersCheck-app/bin/Debug/net7.0/UniqueCharactersCheck-app
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/UniqueCharactersCheck-app/UniqueCharactersCheck-app/bin/Debug/net7.0/UniqueCharactersCheck-app.deps.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/UniqueCharactersCheck-app/UniqueCharactersCheck-app/bin/Debug/net7.0/UniqueCharactersCheck-app.runtimeconfig.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/UniqueCharactersCheck-app/UniqueCharactersCheck-app/bin/Debug/net7.0/UniqueCharactersCheck-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/UniqueCharactersCheck-app/UniqueCharactersCheck-app/bin/Debug/net7.0/UniqueCharactersCheck-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/UniqueCharactersCheck-app/UniqueCharactersCheck-app/obj/Debug/net7.0/UniqueCharactersCheck-app.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/UniqueCharactersCheck-app/UniqueCharactersCheck-app/obj/Debug/net7.0/UniqueCharactersCheck-app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/UniqueCharactersCheck-app/UniqueCharactersCheck-app/obj/Debug/net7.0/UniqueCharactersCheck-app.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/UniqueCharactersCheck-app/UniqueCharactersCheck-app/obj/Debug/net7.0/UniqueCharactersCheck-app.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/UniqueCharactersCheck-app/UniqueCharactersCheck-app/obj/Debug/net7.0/UniqueCharactersCheck-app.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/UniqueCharactersCheck-app/UniqueCharactersCheck-app/obj/Debug/net7.0/UniqueCharactersCheck-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/UniqueCharactersCheck-app/UniqueCharactersCheck-app/obj/Debug/net7.0/refint/UniqueCharactersCheck-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/UniqueCharactersCheck-app/UniqueCharactersCheck-app/obj/Debug/net7.0/UniqueCharactersCheck-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/UniqueCharactersCheck-app/UniqueCharactersCheck-app/obj/Debug/net7.0/UniqueCharactersCheck-app.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/UniqueCharactersCheck-app/UniqueCharactersCheck-app/obj/Debug/net7.0/ref/UniqueCharactersCheck-app.dll

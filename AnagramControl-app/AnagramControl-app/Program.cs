@@ -32,9 +32,8 @@ static bool AnagramControl(string text1, string text2)
 
     // Karakter dizilerini sırala
     Array.Sort(text1Array);
-    Console.WriteLine(text1Array);
     Array.Sort(text2Array);
-    Console.WriteLine(text2Array);
+    
 
     // Sıralanmış karakter dizilerini karşılaştır
     for (int i = 0; i < text1Array.Length; i++)

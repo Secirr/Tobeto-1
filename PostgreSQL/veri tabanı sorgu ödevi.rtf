@@ -1,0 +1,97 @@
+{\rtf1\ansi\ansicpg1254\cocoartf2758
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10740\viewh14360\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 -- 1 - SELECT product_name, quantity_per_unit FROM products\
+\
+-- 2 - SELECT product_id, product_name FROM products WHERE discontinued = 0\
+\
+-- 3 - SELECT product_id, product_name FROM products WHERE discontinued = 1\
+\
+--4 - SELECT product_id, product_name, unit_price FROM products WHERE unit_price < 20\
+\
+--5 - SELECT product_id, product_name, unit_price FROM products WHERE unit_price between 15 and 25\
+\
+--6\
+SELECT product_name, units_on_order, units_in_stock FROM products\
+WHERE units_in_stock < units_on_order\
+\
+--7\
+SELECT * FROM products\
+WHERE product_name LIKE 'a%'\
+\
+--8\
+SELECT * FROM products\
+WHERE product_name LIKE '%i'\
+\
+--9\
+SELECT product_name, unit_price * 1.18 AS unit_price_kdv FROM products\
+\
+--10\
+SELECT COUNT(*) FROM products\
+WHERE unit_price > 30\
+\
+--11\
+select lower(product_name),unit_price from products order by unit_price desc \
+\
+--12\
+select concat(first_name,' ',last_name) as fullname from employees\
+\
+--13\
+select count() from suppliers where region isNULL\
+\
+--14\
+select count() from suppliers where region is not NULL\
+\
+--15\
+select upper(concat('TR',product_name)) as TR from products\
+\
+--16\
+select upper(concat('TR',product_name)),unit_price as TR from products \
+where unit_price < 20\
+\
+--17\
+select product_name,unit_price from products ORDER BY unit_price desc\
+\
+--18\
+select product_name,unit_price from products ORDER BY unit_price desc \
+LIMIT 10\
+\
+--19 \
+select product_name,unit_price from products\
+where unit_price > (select AVG(unit_price) from products)\
+\
+--20\
+select sum(unit_price*units_in_stock) from products\
+\
+--21\
+select count(*) from products where units_in_stock > 0 and discontinued != 0\
+\
+--22\
+SELECT product_name, category_name FROM products\
+INNER JOIN categories ON products.category_id = categories.category_id;\
+\
+--23\
+SELECT category_name, AVG(products.unit_price) FROM categories\
+JOIN products ON products.category_id = categories.category_id\
+group by category_name\
+\
+--24\
+select product_name, unit_price, category_name from products \
+INNER JOIN categories ON categories.category_id = products.category_id\
+ORDER BY unit_price desc limit 1\
+\
+--25\
+select o.product_id,sum(quantity),product_name,category_name,company_name from categories c\
+JOIN products p\
+on p.category_id=c.category_id\
+JOIN suppliers s\
+on s.supplier_id=p.supplier_id\
+JOIN order_details o\
+on o.product_id=p.product_id\
+group by o.product_id,product_name,category_name,company_name\
+order by sum(quantity) desc\
+LIMIT 1}

@@ -1,2 +1,2 @@
-# tobeto-1B-kadirozdemir-homework
-Tobeto | .NET &amp; React Fullstack - 1B | HomeWork
+# Tobeto Kadirozdemir Working 1B File
+Tobeto | .NET & React Fullstack

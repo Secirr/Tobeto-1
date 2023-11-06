@@ -1,0 +1,393 @@
+{\rtf1\ansi\ansicpg1254\cocoartf2758
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww12540\viewh11460\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs22 \cf2 --26 Stokta bulunmayan \'fcr\'fcnlerin \'fcr\'fcn listesiyle birlikte tedarik\'e7ilerin ismi\
+--ve ileti\uc0\u351 im numaras\u305 n\u305  (ProductID, ProductName, CompanyName, Phone) almak i\'e7in bir sorgu yaz\u305 n.\
+select products.product_id, products.product_name, suppliers.company_name, suppliers.phone from products\
+inner join suppliers on suppliers.supplier_id = products.supplier_id\
+where units_in_stock \
+\
+--27 1998 y\uc0\u305 l\u305  mart ay\u305 ndaki sipari\u351 lerin adresi, sipari\u351 i alan \'e7al\u305 \u351 an\u305 n ad\u305 , \'e7al\u305 \u351 an\u305 n soyad\u305 \
+select orders.ship_address, employees.first_name, employees.last_name from orders\
+inner join employees on employees.employee_id = orders.employee_id\
+where order_date between '1998-03-01' and '1998-03-31'\
+\
+--28- 1997 y\uc0\u305 l\u305  \u351 ubat ay\u305 nda ka\'e7 sipari\u351 im var?\
+select count() from orders\
+where order_date between '1997-02-01' and '1997-02-28'\
+\
+--29 London \uc0\u351 ehrinden 1998 y\u305 l\u305 nda ka\'e7 sipari\u351 im var?\
+select count() from orders\
+where ship_city = 'London' and order_date between '1998-01-01' and '1998-12-31'\
+\
+--30 1997 y\uc0\u305 l\u305 nda sipari\u351  veren m\'fc\u351 terilerimin contactname ve telefon numaras\u305 \
+select customers.contact_name, customers.phone from orders\
+inner join customers on customers.customer_id = orders.customer_id\
+where order_date between '1997-01-01' and '1997-12-31'\
+\
+--31 Ta\uc0\u351 \u305 ma \'fccreti 40 \'fczeri olan sipari\u351 lerim\
+select * from orders\
+where freight > 40\
+\
+\
+--32 Ta\uc0\u351 \u305 ma \'fccreti 40 ve \'fczeri olan sipari\u351 lerimin \u351 ehri, m\'fc\u351 terisinin ad\u305 \
+select ship_city, customers.contact_name from orders\
+inner join customers on customers.customer_id = orders.customer_id\
+where freight >= 40\
+\
+\
+--33 1997 y\uc0\u305 l\u305 nda verilen sipari\u351 lerin tarihi, \u351 ehri, \'e7al\u305 \u351 an ad\u305  -soyad\u305  ( ad soyad birle\u351 ik olacak ve b\'fcy\'fck harf)\
+select orders.order_date, orders.ship_city, upper(concat(employees.first_name, employees.last_name)) as Fullname from orders\
+inner join employees on employees.employee_id = orders.employee_id\
+where order_date between '1997-01-01' and '1997-12-31'\
+\
+-- 34. 1997 YILINDA SIPARI\uc0\u350  VEREN M\'dc\u350 TERILERIN CONTACTNAME I, VE TELEFON NUMARALARI ( TELEFON FORMATI 2223322 GIBI OLMALI )\
+select c.contact_name, regexp_replace(c.Phone, '[^\\d]', '', 'g') as phone_number, o.order_date  from customers c\
+inner join orders o on c.customer_id = o.customer_id\
+where o.order_date between '1997-01-01' and '1997-12-31'\
+\
+-- 35. SIPARI\uc0\u350  TARIHI, M\'dc\u350 TERI CONTACT NAME, \'c7ALI\u350 AN AD, \'c7ALI\u350 AN SOYAD\
+select o.order_date, c.contact_name, concat(e.first_name, ' ', e.last_name) as "\'e7al\uc0\u305 \u351 an ad soyad"\
+from orders o\
+inner join customers c on c.customer_id = o.customer_id\
+inner join employees e on e.employee_id = o.employee_id\
+\
+-- 36. GECIKEN SIPARI\uc0\u350 LERIM?\
+select * \
+from orders\
+where shipped_date > required_date\
+\
+-- 37. GECIKEN SIPARI\uc0\u350 LERIMIN TARIHI, M\'dc\u350 TERISININ ADI\
+select o.order_date, c.contact_name\
+from orders o\
+inner join customers c on o.customer_id = c.customer_id\
+where o.shipped_date > o.required_date\
+\
+\
+-- 38. 10248 NOLU SIPARI\uc0\u350 TE SATILAN \'dcR\'dcNLERIN ADI, KATEGORISININ ADI, ADEDI\
+select p.product_name, c.category_name, p.unit_price from order_details od\
+inner join products p on od.product_id = p.product_id\
+inner join categories c on c.category_id = p.category_id\
+where od.order_id = 10248\
+\
+\
+\
+\
+-- 39. 10248 NOLU SIPARI\uc0\u350 IN \'dcR\'dcNLERININ ADI , TEDARIK\'c7I ADI\
+select  od.order_id, p.product_name, s.company_name from order_details od\
+inner join products p on od.product_id = p.product_id\
+inner join suppliers s on s.supplier_id = p.supplier_id\
+where od.order_id = 10248\
+\
+\
+-- 40. 3 NUMARALI ID YE SAHIP \'c7ALI\uc0\u350 ANIN 1997 YILINDA SATTI\u286 I \'dcR\'dcNLERIN ADI VE ADETI\
+select p.product_name, sum(od.quantity) as "\'fcr\'fcn adedi"\
+from orders o\
+inner join order_details od on od.order_id = o.order_id\
+inner join products p on od.product_id = p.product_id\
+where o.employee_id = 3 and date_part('year', o.order_date) = 1997\
+group by p.product_name\
+\
+\
+-- 41. 1997 YILINDA BIR DEFASINDA EN \'c7OK SATI\uc0\u350  YAPAN \'c7ALI\u350 ANIMIN ID,AD SOYAD\
+select e.employee_id, first_name, last_name\
+from orders o\
+inner join employees e on o.employee_id = e.employee_id\
+where o.order_id = \
+	(select od.order_id\
+	 from order_details od\
+	 inner join orders o on o.order_id = od.order_id\
+	 where date_part('year', o.order_date) = 1997\
+	 group by od.order_id\
+	 order by sum(quantity) desc\
+	 LIMIT 1)\
+\
+\
+-- 42. 1997 YILINDA EN \'c7OK SATI\uc0\u350  YAPAN \'c7ALI\u350 ANIMIN ID,AD SOYAD ****\
+select e.employee_id, e.first_name, e.last_name\
+from employees e\
+inner join orders o on o.employee_id = e.employee_id\
+inner join order_details od on o.order_id = od.order_id\
+where date_part('year', o.order_date) = 1997\
+group by e.employee_id\
+order by sum(od.quantity) desc\
+LIMIT 1\
+\
+--43. En pahal\uc0\u305  \'fcr\'fcn\'fcm\'fcn ad\u305 ,fiyat\u305  ve kategorisin ad\u305  nedir?\
+select p.product_name, p.unit_price, c.category_name from products p\
+inner join categories c on p.category_id = c.category_id\
+order by p.unit_price desc\
+limit 1\
+\
+--44. Sipari\uc0\u351 i alan personelin ad\u305 ,soyad\u305 , sipari\u351  tarihi, sipari\u351  ID. S\u305 ralama sipari\u351  tarihine g\'f6re\
+select e.first_name, e.last_name, o.order_date, o.order_id\
+from orders o\
+inner join employees e\
+on o.employee_id = e.employee_id\
+order by o.order_date\
+\
+--45. SON 5 sipari\uc0\u351 imin ortalama fiyat\u305  ve orderid nedir?\
+select o.order_id, avg(od.unit_price * od.quantity)\
+from orders o\
+inner join order_details od\
+on o.order_id = od.order_id\
+group by o.order_id, o.order_date\
+order by o.order_date desc\
+limit 5\
+\
+--46. Ocak ay\uc0\u305 nda sat\u305 lan \'fcr\'fcnlerimin ad\u305  ve kategorisinin ad\u305  ve toplam sat\u305 \u351  miktar\u305  nedir?\
+select p.product_name, c.category_name ,sum(od.quantity) as ToplamSatisMiktari\
+from orders o\
+inner join order_details od on od.order_id = o.order_id\
+inner join products p on p.product_id = od.product_id\
+inner join categories c on p.category_id = c.category_id\
+where extract(month from order_date) = 1\
+group by p.product_id, p.product_name, c.category_name\
+order by ToplamSatisMiktari desc\
+\
+--47. Ortalama sat\uc0\u305 \u351  miktar\u305 m\u305 n \'fczerindeki sat\u305 \u351 lar\u305 m nelerdir?\
+--kontrol et **************\
+select *\
+from order_details od\
+where quantity>(select AVG(quantity) from order_details)\
+order by od.quantity desc\
+\
+--48. En \'e7ok sat\uc0\u305 lan \'fcr\'fcn\'fcm\'fcn(adet baz\u305 nda) ad\u305 , kategorisinin ad\u305  ve tedarik\'e7isinin ad\u305 \
+select p.product_name, c.category_name, s.contact_name, od.quantity\
+from products p\
+inner join categories c on p.category_id = c.category_id\
+inner join suppliers s on s.supplier_id = p.supplier_id\
+inner join order_details od on od.product_id = p.product_id\
+where od.quantity = (select max(quantity) \
+			from order_details)\
+\
+--49. Ka\'e7 \'fclkeden m\'fc\uc0\u351 terim var\
+select count(distinct country) from customers\
+\
+--50. 3 numaral\uc0\u305  ID ye sahip \'e7al\u305 \u351 an (employee) son Ocak ay\u305 ndan BUG\'dcNE toplamda ne kadarl\u305 k \'fcr\'fcn satt\u305 ?\
+select concat(e.first_name, ' ', e.last_name) as AdSoyad, sum(od.quantity * od.unit_price)\
+ from order_details od\
+ inner join orders o\
+ on o.order_id = od.order_id\
+ inner join employees e\
+ on o.employee_id = e.employee_id\
+ where e.employee_id = 3\
+ and date_part('year', o.Order_Date) >= (select date_part('year', order_date)\
+                                        from orders\
+                                        order by order_date desc\
+                                        limit 1)\
+ and date_part('month', o.Order_Date) >= 1\
+ group by AdSoyad\
+\
+--51. 10248 nolu sipari\uc0\u351 te sat\u305 lan \'fcr\'fcnlerin ad\u305 , kategorisinin ad\u305 , adedi\
+select pr.product_name,c.category_name,od.quantity from order_details od\
+inner join products pr on od.product_id = pr.product_id\
+inner join categories c on pr.category_id = c.category_id\
+where od.order_id = 10248\
+\
+--52. 10248 nolu sipari\uc0\u351 in \'fcr\'fcnlerinin ad\u305  , tedarik\'e7i ad\u305 \
+select pr.product_name,s.company_name from order_details od\
+inner join products pr on od.product_id = pr.product_id\
+inner join suppliers s on pr.supplier_id = s.supplier_id\
+where od.order_id = 10248\
+\
+--53. 3 numaral\uc0\u305  ID ye sahip \'e7al\u305 \u351 an\u305 n 1997 y\u305 l\u305 nda satt\u305 \u287 \u305  \'fcr\'fcnlerin ad\u305  ve adeti\
+select pr.product_name,sum(od.quantity) from orders o \
+inner join order_details od on o.order_id = od.order_id\
+inner join products pr on od.product_id = pr.product_id\
+where o.employee_id=3 and date_part('year',o.order_date) = 1997\
+group by pr.product_name\
+\
+--54. 1997 y\uc0\u305 l\u305 nda bir defasinda en \'e7ok sat\u305 \u351  yapan \'e7al\u305 \u351 an\u305 m\u305 n ID,Ad soyad\
+select e.employee_id, first_name, last_name\
+from orders\
+inner join employees e\
+on orders.employee_id = e.employee_id\
+where order_id = \
+    (select od.order_id\
+     from order_details od\
+     inner join orders o\
+     on o.order_id = od.order_id\
+     where date_part('year', o.order_date) = 1997\
+     group by od.order_id\
+     order by sum(quantity) desc\
+     limit 1)\
+\
+--55. 1997 y\uc0\u305 l\u305 nda en \'e7ok sat\u305 \u351  yapan \'e7al\u305 \u351 an\u305 m\u305 n ID,Ad soyad ****\
+SELECT e.employee_id, CONCAT(e.first_name, ' ', e.last_name) AS "\'c7al\uc0\u305 \u351 an Ad Soyad"\
+FROM Employees e\
+WHERE e.employee_id = (\
+    SELECT o.employee_id\
+    FROM Orders o\
+    INNER JOIN Order_Details od ON o.order_id = od.order_id\
+    WHERE date_part('year', o.Order_Date) = 1997\
+    GROUP BY o.employee_id\
+    ORDER BY SUM(od.quantity) DESC--azalan s\uc0\u305 rala\
+    LIMIT 1\
+);\
+\
+\
+--56. En pahal\uc0\u305  \'fcr\'fcn\'fcm\'fcn ad\u305 ,fiyat\u305  ve kategorisin ad\u305  nedir?\
+select p.product_name, p.unit_price, c.category_name from products p\
+inner join categories c on p.category_id = c.category_id\
+order by p.unit_price desc\
+limit 1\
+\
+\
+--57. Sipari\uc0\u351 i alan personelin ad\u305 ,soyad\u305 , sipari\u351  tarihi, sipari\u351  ID. S\u305 ralama sipari\u351  tarihine g\'f6re\
+select e.first_name, e.last_name, o.order_date, o.order_id\
+from orders o\
+inner join employees e\
+on o.employee_id = e.employee_id\
+order by o.order_date\
+\
+\
+--58. SON 5 sipari\uc0\u351 imin ortalama fiyat\u305  ve orderid nedir?\
+select o.order_id, avg(od.unit_price * od.quantity)\
+from orders o\
+inner join order_details od\
+on o.order_id = od.order_id\
+group by o.order_id, o.order_date\
+order by o.order_date desc\
+limit 5\
+\
+\
+--59. Ocak ay\uc0\u305 nda sat\u305 lan \'fcr\'fcnlerimin ad\u305  ve kategorisinin ad\u305  ve toplam sat\u305 \u351  miktar\u305  nedir?\
+select p.product_name, c.category_name, sum(od.quantity) as ToplamSatisMiktari\
+ from orders o\
+ inner join order_details od\
+ on o.order_id = od.order_id\
+ inner join products p\
+ on p.product_id = od.product_id\
+ inner join categories c\
+ on c.category_id = p.category_id\
+ where date_part('month', o.order_date) = 1\
+ group by p.product_name, c.category_name\
+ order by ToplamSatisMiktari desc\
+\
+--60. Ortalama sat\uc0\u305 \u351  miktar\u305 m\u305 n \'fczerindeki sat\u305 \u351 lar\u305 m nelerdir?\
+select *\
+from order_details od\
+where quantity>(select AVG(quantity) from order_details)\
+order by od.quantity desc\
+\
+--61. En \'e7ok sat\uc0\u305 lan \'fcr\'fcn\'fcm\'fcn(adet baz\u305 nda) ad\u305 , kategorisinin ad\u305  ve tedarik\'e7isinin ad\u305 \
+select p.product_name, c.category_name, s.company_name\
+from order_details od\
+inner join products p\
+on p.product_id = od. product_id\
+inner join categories c\
+on c.category_id = p.category_id\
+inner join suppliers s\
+on s.supplier_id = p.supplier_id\
+group by p.product_name, c.category_name, s.company_name\
+order by sum(od.quantity) desc\
+limit 1\
+\
+--62. Ka\'e7 \'fclkeden m\'fc\uc0\u351 terim var\
+select count(distinct country) from customers\
+\
+--63. Hangi \'fclkeden ka\'e7 m\'fc\uc0\u351 terimiz var\
+select country,count(country) from customers\
+group by country\
+\
+--64. 3 numaral\uc0\u305  ID ye sahip \'e7al\u305 \u351 an (employee) son Ocak ay\u305 ndan BUG\'dcNE toplamda ne kadarl\u305 k \'fcr\'fcn satt\u305 ?\
+select concat(e.first_name, ' ', e.last_name) as AdSoyad, sum(od.quantity * od.unit_price)\
+ from order_details od\
+ inner join orders o\
+ on o.order_id = od.order_id\
+ inner join employees e\
+ on o.employee_id = e.employee_id\
+ where e.employee_id = 3\
+ and date_part('year', o.Order_Date) >= (select date_part('year', order_date)\
+                                        from orders\
+                                        order by order_date desc\
+                                        limit 1)\
+ and date_part('month', o.Order_Date) >= 1\
+ group by AdSoyad\
+\
+--65. 10 numaral\uc0\u305  ID ye sahip \'fcr\'fcn\'fcmden son 3 ayda ne kadarl\u305 k ciro sa\u287 lad\u305 m?\
+select sum((quantity*unit_price)-discount) from order_details where product_id=10\
+\
+--66. Hangi \'e7al\uc0\u305 \u351 an \u351 imdiye kadar toplam ka\'e7 sipari\u351  alm\u305 \u351 ..?\
+select employee_id, count(order_id) from orders group by employee_id\
+\
+--67. 91 m\'fc\uc0\u351 terim var. Sadece 89\'92u sipari\u351  vermi\u351 . Sipari\u351  vermeyen 2 ki\u351 iyi bulun\
+select c.* from orders o\
+right join customers c on c.customer_id = o.customer_id\
+where order_id is null\
+\
+--68. Brazil\'92de bulunan m\'fc\uc0\u351 terilerin \u350 irket Ad\u305 , TemsilciAdi, Adres, \u350 ehir, \'dclke bilgileri\
+select company_name,contact_name,address,city,country from customers where country = 'Brazil'\
+\
+--69. Brezilya\'92da olmayan m\'fc\uc0\u351 teriler\
+select * from customers where country != 'Brazil'\
+\
+--70. \'dclkesi (Country) YA Spain, Ya France, Ya da Germany olan m\'fc\uc0\u351 teriler\
+select * from customers\
+where country in('France','Spain','Germany')\
+\
+--71. Faks numaras\uc0\u305 n\u305  bilmedi\u287 im m\'fc\u351 teriler\
+select * from customers where fax is null\
+\
+--72. Londra\'92da ya da Paris\'92de bulunan m\'fc\uc0\u351 terilerim\
+Select * from Customers\
+where city in ('London','Paris')\
+\
+\
+--73. Hem Mexico D.F\'92da ikamet eden HEM DE ContactTitle bilgisi \'91owner\'92 olan m\'fc\uc0\u351 teriler\
+select * from customers where city = 'M\'e9xico D.F.' and contact_title='Owner'\
+\
+--74. C ile ba\uc0\u351 layan \'fcr\'fcnlerimin isimleri ve fiyatlar\u305 \
+select product_name,unit_price from products\
+where product_name like 'C%'\
+\
+--75. Ad\uc0\u305  (FirstName) \'91A\'92 harfiyle ba\u351 layan \'e7al\u305 \u351 anlar\u305 n (Employees); Ad, Soyad ve Do\u287 um Tarihleri\
+select first_name,last_name,birth_date from employees\
+where first_name like 'A%'\
+\
+--76. \uc0\u304 sminde \'91RESTAURANT\'92 ge\'e7en m\'fc\u351 terilerimin \u351 irket adlar\u305 \
+select company_name from customers\
+where UPPER(company_name) like '%RESTAURANT%'\
+\
+--77. 50$ ile 100$ aras\uc0\u305 nda bulunan t\'fcm \'fcr\'fcnlerin adlar\u305  ve fiyatlar\u305 \
+select product_name,unit_price from products\
+where unit_price between 50 and 100\
+\
+--78. 1 temmuz 1996 ile 31 Aral\uc0\u305 k 1996 tarihleri aras\u305 ndaki sipari\u351 lerin (Orders), Sipari\u351 ID (OrderID) ve Sipari\u351 Tarihi (OrderDate) bilgileri\
+select o.order_id, o.order_date\
+from orders o\
+where order_date between '1996-7-1' and '1996-12-31';\
+\
+--79. \'dclkesi (Country) YA Spain, Ya France, Ya da Germany olan m\'fc\uc0\u351 teriler\
+select * from customers\
+where country='Germany' or country='Spain' or country='France'\
+\
+--80. Faks numaras\uc0\u305 n\u305  bilmedi\u287 im m\'fc\u351 teriler\
+select * from customers where fax is null\
+\
+--81. M\'fc\uc0\u351 terilerimi \'fclkeye g\'f6re s\u305 ral\u305 yorum:\
+select * from customers\
+order by country\
+\
+--82. \'dcr\'fcnlerimi en pahal\uc0\u305 dan en ucuza do\u287 ru s\u305 ralama, sonu\'e7 olarak \'fcr\'fcn ad\u305  ve fiyat\u305 n\u305  istiyoruz\
+Select product_name,unit_price from products\
+order by unit_price desc\
+\
+--83. \'dcr\'fcnlerimi en pahal\uc0\u305 dan en ucuza do\u287 ru s\u305 ralas\u305 n, ama stoklar\u305 n\u305  k\'fc\'e7\'fckten-b\'fcy\'fc\u287 e do\u287 ru g\'f6stersin sonu\'e7 olarak \'fcr\'fcn ad\u305  ve fiyat\u305 n\u305  istiyoruz\
+select product_name,unit_price\
+from products\
+order by unit_price desc, units_in_stock asc\
+\
+--84. 1 Numaral\uc0\u305  kategoride ka\'e7 \'fcr\'fcn vard\u305 r..?\
+select count(*) from products\
+where category_id = 1\
+\
+--85. Ka\'e7 farkl\uc0\u305  \'fclkeye ihracat yap\u305 yorum..?\
+select count(distinct ship_country) from orders\
+}

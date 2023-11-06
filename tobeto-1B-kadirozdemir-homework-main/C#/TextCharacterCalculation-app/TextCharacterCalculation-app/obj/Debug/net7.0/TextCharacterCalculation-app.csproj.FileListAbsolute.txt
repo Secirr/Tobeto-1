@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/TextCharacterCalculation-app/TextCharacterCalculation-app/bin/Debug/net7.0/TextCharacterCalculation-app
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/TextCharacterCalculation-app/TextCharacterCalculation-app/bin/Debug/net7.0/TextCharacterCalculation-app.deps.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/TextCharacterCalculation-app/TextCharacterCalculation-app/bin/Debug/net7.0/TextCharacterCalculation-app.runtimeconfig.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/TextCharacterCalculation-app/TextCharacterCalculation-app/bin/Debug/net7.0/TextCharacterCalculation-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/TextCharacterCalculation-app/TextCharacterCalculation-app/bin/Debug/net7.0/TextCharacterCalculation-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/TextCharacterCalculation-app/TextCharacterCalculation-app/obj/Debug/net7.0/TextCharacterCalculation-app.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/TextCharacterCalculation-app/TextCharacterCalculation-app/obj/Debug/net7.0/TextCharacterCalculation-app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/TextCharacterCalculation-app/TextCharacterCalculation-app/obj/Debug/net7.0/TextCharacterCalculation-app.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/TextCharacterCalculation-app/TextCharacterCalculation-app/obj/Debug/net7.0/TextCharacterCalculation-app.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/TextCharacterCalculation-app/TextCharacterCalculation-app/obj/Debug/net7.0/TextCharacterCalculation-app.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/TextCharacterCalculation-app/TextCharacterCalculation-app/obj/Debug/net7.0/TextCharacterCalculation-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/TextCharacterCalculation-app/TextCharacterCalculation-app/obj/Debug/net7.0/refint/TextCharacterCalculation-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/TextCharacterCalculation-app/TextCharacterCalculation-app/obj/Debug/net7.0/TextCharacterCalculation-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/TextCharacterCalculation-app/TextCharacterCalculation-app/obj/Debug/net7.0/TextCharacterCalculation-app.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/TextCharacterCalculation-app/TextCharacterCalculation-app/obj/Debug/net7.0/ref/TextCharacterCalculation-app.dll

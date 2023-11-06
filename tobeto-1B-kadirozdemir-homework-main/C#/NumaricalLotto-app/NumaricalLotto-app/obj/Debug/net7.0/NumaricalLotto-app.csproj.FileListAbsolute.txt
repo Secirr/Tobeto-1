@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/NumaricalLotto-app/NumaricalLotto-app/bin/Debug/net7.0/NumaricalLotto-app
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/NumaricalLotto-app/NumaricalLotto-app/bin/Debug/net7.0/NumaricalLotto-app.deps.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/NumaricalLotto-app/NumaricalLotto-app/bin/Debug/net7.0/NumaricalLotto-app.runtimeconfig.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/NumaricalLotto-app/NumaricalLotto-app/bin/Debug/net7.0/NumaricalLotto-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/NumaricalLotto-app/NumaricalLotto-app/bin/Debug/net7.0/NumaricalLotto-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/NumaricalLotto-app/NumaricalLotto-app/obj/Debug/net7.0/NumaricalLotto-app.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/NumaricalLotto-app/NumaricalLotto-app/obj/Debug/net7.0/NumaricalLotto-app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/NumaricalLotto-app/NumaricalLotto-app/obj/Debug/net7.0/NumaricalLotto-app.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/NumaricalLotto-app/NumaricalLotto-app/obj/Debug/net7.0/NumaricalLotto-app.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/NumaricalLotto-app/NumaricalLotto-app/obj/Debug/net7.0/NumaricalLotto-app.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/NumaricalLotto-app/NumaricalLotto-app/obj/Debug/net7.0/NumaricalLotto-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/NumaricalLotto-app/NumaricalLotto-app/obj/Debug/net7.0/refint/NumaricalLotto-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/NumaricalLotto-app/NumaricalLotto-app/obj/Debug/net7.0/NumaricalLotto-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/NumaricalLotto-app/NumaricalLotto-app/obj/Debug/net7.0/NumaricalLotto-app.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/NumaricalLotto-app/NumaricalLotto-app/obj/Debug/net7.0/ref/NumaricalLotto-app.dll

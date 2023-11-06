@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{63B2E636-48CC-47F1-9654-92CF4858D1DC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="conditionals/Program.cs">
+    <Files>
+      <File FileName="conditionals/Program.cs" Line="49" Column="66" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="conditionals" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.conditionals PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

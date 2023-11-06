@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{70810AFF-341C-4BCA-898E-511CEB85926A}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AnagramControl-app/Program.cs">
+    <Files>
+      <File FileName="AnagramControl-app/Program.cs" Line="20" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AnagramControl-app PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/AnagramControl-app/AnagramControl-app/Program.cs" relfile="AnagramControl-app/Program.cs" line="23" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

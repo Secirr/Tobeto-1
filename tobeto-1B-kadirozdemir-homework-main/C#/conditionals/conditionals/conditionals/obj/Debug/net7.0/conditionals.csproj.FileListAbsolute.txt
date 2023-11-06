@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/conditionals/conditionals/conditionals/bin/Debug/net7.0/conditionals
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/conditionals/conditionals/conditionals/bin/Debug/net7.0/conditionals.deps.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/conditionals/conditionals/conditionals/bin/Debug/net7.0/conditionals.runtimeconfig.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/conditionals/conditionals/conditionals/bin/Debug/net7.0/conditionals.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/conditionals/conditionals/conditionals/bin/Debug/net7.0/conditionals.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/conditionals/conditionals/conditionals/obj/Debug/net7.0/conditionals.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/conditionals/conditionals/conditionals/obj/Debug/net7.0/conditionals.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/conditionals/conditionals/conditionals/obj/Debug/net7.0/conditionals.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/conditionals/conditionals/conditionals/obj/Debug/net7.0/conditionals.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/conditionals/conditionals/conditionals/obj/Debug/net7.0/conditionals.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/conditionals/conditionals/conditionals/obj/Debug/net7.0/conditionals.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/conditionals/conditionals/conditionals/obj/Debug/net7.0/refint/conditionals.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/conditionals/conditionals/conditionals/obj/Debug/net7.0/conditionals.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/conditionals/conditionals/conditionals/obj/Debug/net7.0/conditionals.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/conditionals/conditionals/conditionals/obj/Debug/net7.0/ref/conditionals.dll

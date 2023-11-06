@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FriendlyNumbers-app/FriendlyNumbers-app/obj/Debug/net7.0/FriendlyNumbers-app.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FriendlyNumbers-app/FriendlyNumbers-app/obj/Debug/net7.0/FriendlyNumbers-app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FriendlyNumbers-app/FriendlyNumbers-app/obj/Debug/net7.0/FriendlyNumbers-app.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FriendlyNumbers-app/FriendlyNumbers-app/obj/Debug/net7.0/FriendlyNumbers-app.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FriendlyNumbers-app/FriendlyNumbers-app/obj/Debug/net7.0/FriendlyNumbers-app.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FriendlyNumbers-app/FriendlyNumbers-app/bin/Debug/net7.0/FriendlyNumbers-app
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FriendlyNumbers-app/FriendlyNumbers-app/bin/Debug/net7.0/FriendlyNumbers-app.deps.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FriendlyNumbers-app/FriendlyNumbers-app/bin/Debug/net7.0/FriendlyNumbers-app.runtimeconfig.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FriendlyNumbers-app/FriendlyNumbers-app/bin/Debug/net7.0/FriendlyNumbers-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FriendlyNumbers-app/FriendlyNumbers-app/bin/Debug/net7.0/FriendlyNumbers-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FriendlyNumbers-app/FriendlyNumbers-app/obj/Debug/net7.0/FriendlyNumbers-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FriendlyNumbers-app/FriendlyNumbers-app/obj/Debug/net7.0/refint/FriendlyNumbers-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FriendlyNumbers-app/FriendlyNumbers-app/obj/Debug/net7.0/FriendlyNumbers-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FriendlyNumbers-app/FriendlyNumbers-app/obj/Debug/net7.0/FriendlyNumbers-app.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/FriendlyNumbers-app/FriendlyNumbers-app/obj/Debug/net7.0/ref/FriendlyNumbers-app.dll

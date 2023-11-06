@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Arrays/Arrays/bin/Debug/net7.0/Arrays
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Arrays/Arrays/bin/Debug/net7.0/Arrays.deps.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Arrays/Arrays/bin/Debug/net7.0/Arrays.runtimeconfig.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Arrays/Arrays/bin/Debug/net7.0/Arrays.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Arrays/Arrays/bin/Debug/net7.0/Arrays.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Arrays/Arrays/obj/Debug/net7.0/Arrays.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Arrays/Arrays/obj/Debug/net7.0/Arrays.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Arrays/Arrays/obj/Debug/net7.0/Arrays.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Arrays/Arrays/obj/Debug/net7.0/Arrays.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Arrays/Arrays/obj/Debug/net7.0/Arrays.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Arrays/Arrays/obj/Debug/net7.0/Arrays.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Arrays/Arrays/obj/Debug/net7.0/refint/Arrays.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Arrays/Arrays/obj/Debug/net7.0/Arrays.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Arrays/Arrays/obj/Debug/net7.0/Arrays.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/Arrays/Arrays/obj/Debug/net7.0/ref/Arrays.dll

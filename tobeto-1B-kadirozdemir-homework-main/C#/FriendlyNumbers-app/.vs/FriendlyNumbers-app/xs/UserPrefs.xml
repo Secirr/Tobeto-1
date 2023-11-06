@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{6FD98E00-9F29-403E-BAA4-6F16043C954D}|Default">
+  <MonoDevelop.Ide.ItemProperties.FriendlyNumbers-app PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="FriendlyNumbers-app/Program.cs">
+    <Files>
+      <File FileName="FriendlyNumbers-app/Program.cs" Line="11" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

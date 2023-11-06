@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{3276DCC8-61C1-4E22-BF3B-4212D8C078C3}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.NumaricalLotto-app PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NumaricalLotto-app/Program.cs">
+    <Files>
+      <File FileName="NumaricalLotto-app/Program.cs" Line="18" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

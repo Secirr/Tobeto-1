@@ -1,0 +1,15 @@
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/PrimeNumbers-app/PrimeNumbers-app/obj/Debug/net7.0/PrimeNumbers-app.csproj.AssemblyReference.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/PrimeNumbers-app/PrimeNumbers-app/obj/Debug/net7.0/PrimeNumbers-app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/PrimeNumbers-app/PrimeNumbers-app/obj/Debug/net7.0/PrimeNumbers-app.AssemblyInfoInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/PrimeNumbers-app/PrimeNumbers-app/obj/Debug/net7.0/PrimeNumbers-app.AssemblyInfo.cs
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/PrimeNumbers-app/PrimeNumbers-app/obj/Debug/net7.0/PrimeNumbers-app.csproj.CoreCompileInputs.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/PrimeNumbers-app/PrimeNumbers-app/bin/Debug/net7.0/PrimeNumbers-app
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/PrimeNumbers-app/PrimeNumbers-app/bin/Debug/net7.0/PrimeNumbers-app.deps.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/PrimeNumbers-app/PrimeNumbers-app/bin/Debug/net7.0/PrimeNumbers-app.runtimeconfig.json
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/PrimeNumbers-app/PrimeNumbers-app/bin/Debug/net7.0/PrimeNumbers-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/PrimeNumbers-app/PrimeNumbers-app/bin/Debug/net7.0/PrimeNumbers-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/PrimeNumbers-app/PrimeNumbers-app/obj/Debug/net7.0/PrimeNumbers-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/PrimeNumbers-app/PrimeNumbers-app/obj/Debug/net7.0/refint/PrimeNumbers-app.dll
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/PrimeNumbers-app/PrimeNumbers-app/obj/Debug/net7.0/PrimeNumbers-app.pdb
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/PrimeNumbers-app/PrimeNumbers-app/obj/Debug/net7.0/PrimeNumbers-app.genruntimeconfig.cache
+/Users/kadirozdemir/Desktop/Tobeto/tobeto-1B-kadirozdemir-homework/PrimeNumbers-app/PrimeNumbers-app/obj/Debug/net7.0/ref/PrimeNumbers-app.dll
